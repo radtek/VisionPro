@@ -1,0 +1,206 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="zh-cn" lang="zh-cn">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) 版权 2005" /><meta name="DC.rights.owner" content="(C) 版权 2005" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="通用设置" /><meta name="abstract" content="通用部分可根据用户需要切换用户等级，设置设备列表是否自动更新、字符串编码方式和cti文件默认路径。" /><meta name="description" content="通用部分可根据用户需要切换用户等级，设置设备列表是否自动更新、字符串编码方式和cti文件默认路径。" /><meta name="DC.Relation" scheme="URI" content="GUID-2383E3DD-B04B-41B9-B212-8B58699242B3.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027" /><meta name="DC.Language" content="zh-CN" /><title>通用设置</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">zh-CN</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26552B" /><input hidden="hidden" id="UDTrademark" value="" /><input hidden="hidden" id="Trademark" value="海康机器人" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">通用设置</h1>
+
+
+<div class="body conbody"><p class="shortdesc">通用部分可根据用户需要切换用户等级，设置设备列表是否自动更新、字符串编码方式和cti文件默认路径。</p>
+
+        <dl class="dl parml">
+            
+                <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-4632BECE-2147-427A-83A0-CF1297990410"><!-- --></a>用户等级</dt>
+
+                <dd class="dd pd">分为初级、专家、大师三种。选择不同的用户等级，相机属性树栏开放的可以读写的参数有所差别。其中初级为最低用户级别，只能查看部分相机参数；而大师为最高用户级别，可以查看所有的相机参数。</dd>
+
+            
+        </dl>
+
+        <dl class="dl parml">
+            
+                <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-B1BCCC7D-8456-4E50-AB51-737A331DFCC3"><!-- --></a>应用选项</dt>
+
+                <dd class="dd pd">
+                    <dl class="dl parml">
+                        
+                            <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-9F51221F-4936-452A-B272-CE855DF6F5A4"><!-- --></a>设备列表自动更新</dt>
+
+                            <dd class="dd pd">
+                                <p class="p">启用<span class="ph uicontrol">设备列表自动更新</span>，则每隔固定的时间，设备列表将对GigE和USB接口的在线设备执行自动刷新并显示的操作；若不勾选，则需要手动刷新才能使GigE和USB接口的在线设备进行刷新并显示。</p>
+
+                                <div class="note note" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-C140249A-19BE-4AB2-9A12-7272517E58F4"><span class="notetitle">说明：</span> 
+                                    <ul class="ul" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__UL_OSM_KYR_VRB">
+                                        <li class="li" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-68CF8346-28A6-462D-AC87-E90578050C9D">
+                                            <p class="p">自动刷新功能只针对GigE和USB接口的相机，对于Camera Link接口相机不生效。</p>
+
+                                        </li>
+
+                                        <li class="li" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-1BA74540-C23E-4808-96BD-6B171DA04C17">
+                                            <p class="p">Camera Link相机刷新较耗时，请通过设备列表中Camera Link接口右侧的<img class="image icon" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__IMAGE_AB1_S2S_BKB" src="GUID-21129D57-7CF9-4746-88F0-C5EFF4A4C073-high.png" />进行手动刷新。</p>
+
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </dd>
+
+                        
+                        
+                            <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-A5CFDE81-B39C-4A05-BB96-986A4BE4E5A1"><!-- --></a>枚举设备命令的回复包类型</dt>
+
+                            <dd class="dd pd">
+                                <p class="p">枚举网口设备时，可对设备数据包的回复类型进行配置。</p>
+
+                                <dl class="dl parml">
+                                    
+                                        <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-8E5BD295-E47C-4842-A069-73A1BED34500"><!-- --></a>单播</dt>
+
+                                        <dd class="dd pd">枚举的设备仅给当前使用的主机回复数据包。</dd>
+
+                                    
+                                    
+                                        <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-5B88410B-2ECE-4D67-93F2-42DA4658554C"><!-- --></a>广播</dt>
+
+                                        <dd class="dd pd">设备给与主机所在同一网段的所有主机回复数据包。</dd>
+
+                                    
+                                </dl>
+
+                            </dd>
+
+                        
+                        
+                            <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-09D5CE76-D2BD-46BE-9DD7-905DE4899519"><!-- --></a>字符编码方式</dt>
+
+                            <dd class="dd pd">可以对客户端的字符串编码方式进行设置，可选本地编码方式和UTF-8。<dl class="dl parml">
+                                    
+                                        <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-3740BF16-CCA9-41DE-A5D8-9E0464AEC2A4"><!-- --></a>本地编码方式</dt>
+
+                                        <dd class="dd pd">支持中文字符。</dd>
+
+                                    
+                                    
+                                        <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-75CC3B2E-06CA-4DFD-89FD-E3F7807C5B4F"><!-- --></a>UTF-8</dt>
+
+                                        <dd class="dd pd">支持中英文字符互译。</dd>
+
+                                    
+                                </dl>
+</dd>
+
+                        
+                    </dl>
+
+                </dd>
+
+            
+        </dl>
+
+        <dl class="dl parml">
+            
+                <dt class="dt pt dlterm"><a name="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-DA975D70-5F10-43EA-A588-5A1C023C5331"><!-- --></a>cti默认路径</dt>
+
+                <dd class="dd pd">可以设置使用GenTL标准搜索相机时加载的cti文件的默认路径。启用<span class="ph uicontrol">开启默认路径</span>后，客户端将自动加载默认路径下的cti文件。</dd>
+
+            
+        </dl>
+
+        <div class="note note" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__GUID-BA5502A9-EE35-4B2A-892D-EF5D0AB2E896"><span class="notetitle">说明：</span> 
+            <p class="p">使用GenTL标准连接相机的具体操作方法请见<a class="xref" href="GUID-4DC0D24E-1CFF-4922-B956-AF35AAD320AF.html#GUID-4DC0D24E-1CFF-4922-B956-AF35AAD320AF" title="GenTL标准可提供一个统一的接口，使得客户端在不依赖于底层传输技术的情况下，也能连接相机（包括其他厂商的相机），与相机通信，甚至直接获取相机采集的数据。">GenTL管理</a>章节。</p>
+
+        </div>
+
+        <div class="fig fignone" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__FIG_TJ3_C3C_VRB">
+            
+            <img class="image" id="GUID-A3AA723F-F997-4E4E-B4EB-D693AF25A027__IMAGE_VF3_F3C_VRB" src="GUID-1045C678-7B9C-45C2-B405-475A6B7EF09D-high.png" width="1472" />
+        <span class="figcap">图 1 通用设置</span></div>
+
+    </div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-C1F1D0D0-447B-46D3-9163-13ED532519F0.html">菜单介绍</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-41E6C4B8-B512-48EC-9B14-34076FEC7987.html">文件</a></span></li><li><span class="topicref"><a href="GUID-EE863284-74AC-47CA-9A6A-28EB42342AE9.html">视图</a></span></li><li><span class="topicref"><a href="GUID-2383E3DD-B04B-41B9-B212-8B58699242B3.html">设置</a></span><ul class="nav nav-list"><li class="active"><span class="topicref">通用设置</span></li><li><span class="topicref"><a href="GUID-A1912249-B1B5-4C6A-A7D8-788A9C03D1BF.html">录像与抓图设置</a></span></li><li><span class="topicref"><a href="GUID-16E1D171-F3E2-4731-9B87-27E6846EB48F.html">网络设置</a></span></li><li><span class="topicref"><a href="GUID-FADCB0D4-2A06-49EF-8BC6-E81B076AE880.html">缓存设置</a></span></li><li><span class="topicref"><a href="GUID-E6D97A9A-02A2-4206-9A54-7ABDD301C986.html">重发包设置</a></span></li><li><span class="topicref"><a href="GUID-1924FFC9-A3EA-4D69-97B9-60611133E419.html">快捷键设置</a></span></li></ul></li><li><span class="topicref"><a href="GUID-AFEBC1E7-3A15-4477-BA36-C98B95EEF95E.html">工具</a></span></li><li><span class="topicref"><a href="GUID-B20E4585-EA6E-4613-8F2D-E44B3242DC30.html">帮助</a></span></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,208 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="zh-cn" lang="zh-cn">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) 版权 2005" /><meta name="DC.rights.owner" content="(C) 版权 2005" /><meta name="DC.Type" content="task" /><meta name="DC.Title" content="固件升级" /><meta name="abstract" content="固件升级工具支持对网口相机、USB相机、Camera Link相机以及CoaXPress相机进行固件升级。" /><meta name="description" content="固件升级工具支持对网口相机、USB相机、Camera Link相机以及CoaXPress相机进行固件升级。" /><meta name="DC.Relation" scheme="URI" content="GUID-49ADF167-5FCB-4A42-9EDD-59690BE91937.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69" /><meta name="DC.Language" content="zh-CN" /><title>固件升级</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">zh-CN</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26552B" /><input hidden="hidden" id="UDTrademark" value="" /><input hidden="hidden" id="Trademark" value="海康机器人" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">固件升级</h1>
+
+
+<div class="body taskbody"><p class="shortdesc">固件升级工具支持对网口相机、USB相机、Camera Link相机以及CoaXPress相机进行固件升级。</p>
+
+        <div class="section prereq p" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-365D63C3-44AC-4E4C-8935-5802320ED1BE">
+            <p class="p">确认需要固件升级的相机处于可用状态。</p>
+
+        </div>
+
+<ol class="ol steps" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-8E8FCEFE-3FAA-45DC-97B5-3951A219CC8B"><li class="li step stepexpand" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-1919791B-7853-40CC-A885-49701EB9DFCE">
+                <span class="ph cmd">升级网口相机、USB相机、Camera Link相机通过菜单栏的<span class="ph menucascade"><span class="ph uicontrol">工具</span> &gt; <span class="ph uicontrol">固件升级工具</span></span>，进入固件升级工具，如下图所示。</span>
+                <div class="itemgroup info">
+                    <div class="fig fignone" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__FIG_N5V_VG3_CKB">
+                        
+                        <img class="image" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_O5V_VG3_CKB" src="GUID-EFE9A3CE-3DB7-4E9E-8386-E1709E476EFE-high.png" width="2067" />
+                    <span class="figcap">图 1 固件升级工具</span></div>
+
+                    <div class="note note" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-5F3B930C-33CD-4555-A2EA-C40AC1E1A734"><span class="notetitle">说明：</span> 
+                        <p class="p">CoaXPress接口相机固件升级直接在设备列表选择需要升级的相机，右键单击<span class="ph uicontrol">固件升级</span>，再单击<img class="image icon" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_RCL_RGY_XRB" src="GUID-774AACC6-E614-4B52-81BA-E562392FD5D0-high.png" />选择固件升级包（dav文件），单击<span class="ph uicontrol">升级</span>按钮即可。</p>
+
+                    </div>
+
+                </div>
+            </li>
+<li class="li step stepexpand" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-7C95E598-6190-4E2D-9152-90C246BD927C">
+                <span class="ph cmd">在上图左侧，显示当前PC上接口的信息，可进行以下操作。</span>
+                <div class="itemgroup info">
+                    <ul class="ul" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-FE212796-003D-421A-98C2-748C5041E325">
+                        <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-C3EF9360-5EC6-49C3-A0D1-7E734A81739A">
+                            <p class="p">选中左侧接口属性时，右侧显示当前该类型接口下能搜索到的设备。</p>
+
+                        </li>
+
+                        <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-8257D29C-A158-40AE-BD76-923B9A8D3557">
+                            <p class="p">选中某个接口时，右侧只显示该接口下能搜索到的设备。</p>
+
+                        </li>
+
+                        <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-FF12196C-B5E2-460A-BD4C-04217613CBCA">
+                            <div class="note note" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-1E0D9C14-C11B-4FB0-8BB9-551B1311A8CB"><span class="notetitle">说明：</span> 
+                                <p class="p">通过GigE、USB以及Camera Link右侧的<img class="image icon" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_LPV_RF3_CKB" src="GUID-21129D57-7CF9-4746-88F0-C5EFF4A4C073-high.png" />，可手动枚举各接口下的相机。其中Camera Link接口只能手动刷新，工具默认不自动刷新。</p>
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+            </li>
+<li class="li step stepexpand" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-E99E95CC-D861-4571-89BF-405B64E68F11">
+                <span class="ph cmd">工具右侧勾选需要固件升级的相机。同时可以显示当前客户端各接口下搜索到的设备以及设备信息，设备信息具体如下表所示。</span>
+                <div class="itemgroup info">
+                    <div class="note note" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-F283F57B-9E2C-4B74-A583-5AD9E8D2EB14"><span class="notetitle">说明：</span> 
+                        <p class="p">工具右侧显示客户端各接口下搜索到的相机以及相关信息。显示的相机信息可通过工具右上角的<img class="image icon" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_ISV_MDF_CKB" src="GUID-95E0BD30-17CA-4516-948A-58D48FA48C14-high.png" />进行设置。</p>
+
+                    </div>
+
+                </div>
+            </li>
+<li class="li step stepexpand" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-9B921AF4-E81E-435C-949E-ABECDA51B7D8">
+                <span class="ph cmd">单击<img class="image icon" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_HHQ_NBJ_2KB" src="GUID-774AACC6-E614-4B52-81BA-E562392FD5D0-high.png" />选择固件升级包（dav文件）。</span>
+                <div class="itemgroup info">
+                    <div class="note note" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-5411664F-0020-454A-A8D5-DE33E937A28E"><span class="notetitle">说明：</span> 
+                        <p class="p">工具可批量升级多个相机的固件，最多可同时勾选20个相机。</p>
+
+                        <ul class="ul" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__UL_RPN_32F_CKB">
+                            <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-907199FA-FE0B-4129-A870-497480F79483">
+                                <p class="p">若使用的升级包是针对某个型号的，则进行批量升级时，只能升级同型号相机。对于其他型号的相机，若进行升级操作，升级状态栏错提示“加载升级文件失败：0x80000400”。
+                                </p>
+
+                            </li>
+
+                            <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-D48F66F8-D029-4D70-A752-8F19694BF34B">
+                                <p class="p">若使用的升级包是针对多个型号的，则进行批量升级时，可以对升级包中包含的多个型号的相机都进行升级操作。对于不包含在升级包中的其他型号的相机，若进行升级操作，升级状态栏错提示“加载升级文件失败：0x80000400”。</p>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </li>
+<li class="li step stepexpand" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-0108B0AC-6998-463F-A5CC-AA84C9A22C8B">
+                <span class="ph cmd">单击<span class="ph uicontrol">升级</span>按钮。</span>
+                <div class="itemgroup info">
+                    <div class="note note" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-ED005549-D94C-4303-A915-3675A366D308"><span class="notetitle">说明：</span> 
+                        <ul class="ul" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__UL_JRG_F2F_CKB">
+                            <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-D75A591D-7771-4A01-9BF8-09141862170F">
+                                <p class="p">升级固件过程中，请勿断开相机与PC的连接，并保证相机处于工作状态。</p>
+
+                            </li>
+
+                            <li class="li" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__GUID-AD805CF9-CD21-4E60-BA66-722370841315">
+                                <p class="p">设备升级成功后将自动重启。</p>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="itemgroup stepresult">
+                    <p class="p">此时工具左上角会显示当前升级中、完成和失败的情况，如下图所示。可通过工具右上角的<span class="ph uicontrol">返回</span>按钮返回工具的初始界面。工具右侧选中的相机也会显示具体的升级状态。</p>
+
+                    <div class="fig fignone" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__FIG_NHJ_YG3_CKB">
+                        
+                        <img class="image" id="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69__IMAGE_OHJ_YG3_CKB" src="GUID-B9E40228-321E-44E0-841C-0EB6482FE237-high.png" width="2067" />
+                    <span class="figcap">图 2 多相机固件升级</span></div>
+
+                </div>
+            </li>
+</ol>
+
+</div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-49ADF167-5FCB-4A42-9EDD-59690BE91937.html">工具应用</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-863892B3-DF4D-4FE3-AC52-D8169AA0D9D4.html">IP配置工具</a></span></li><li class="active"><span class="topicref">固件升级</span></li><li><span class="topicref"><a href="GUID-DAECD382-D164-4086-84F1-7CB17B336B77.html">带宽管理</a></span></li><li><span class="topicref"><a href="GUID-F9CF6C52-A5BD-4EED-95DF-2D60D3E78134.html">GigE Vision动作命令</a></span></li><li><span class="topicref"><a href="GUID-B344F716-EDE9-4FAD-B9B0-AF2D7AD707C6.html">网卡配置</a></span></li><li><span class="topicref"><a href="GUID-35D10920-7AE3-496A-8AB3-74AD780EBCEE.html">驱动管理</a></span></li><li><span class="topicref"><a href="GUID-4681581B-6365-4131-99C1-C18604DFB5C1.html">诊断工具</a></span></li><li><span class="topicref"><a href="GUID-71C47620-4125-44D8-A429-8D5265F853C6.html">查看PC系统信息</a></span></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,342 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="en-us" lang="en-us">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) Copyright 2005" /><meta name="DC.rights.owner" content="(C) Copyright 2005" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="Diagnostic Tool" /><meta name="abstract" content="You can use the Diagnostic Tool to diagnose the running environment and the secondary development environment, and then optimize the environments basing on the detected exceptions." /><meta name="description" content="You can use the Diagnostic Tool to diagnose the running environment and the secondary development environment, and then optimize the environments basing on the detected exceptions." /><meta name="DC.Relation" scheme="URI" content="GUID-545BED7E-6E3C-4D3F-BB3F-496843D1B428.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-741C6A23-9218-42DF-B4AD-15ED12579371" /><meta name="DC.Language" content="en-US" /><title>Diagnostic Tool</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">en-US</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26519B" /><input hidden="hidden" id="UDTrademark" value="_HIKROBOT" /><input hidden="hidden" id="Trademark" value="Hikrobot" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">Diagnostic Tool</h1>
+
+
+<div class="body conbody"><p class="shortdesc">You can use the Diagnostic Tool to diagnose the running environment and the
+        secondary development environment, and then optimize the environments basing on the detected
+        exceptions. </p>
+
+        <p class="p">Diagnose the running environment first (see <a class="xref" href="#GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E6DF6A99-7B10-4A58-A196-F4B24D6276A9">Diagnose Running Environment</a>), and then optimize the running environment (see <a class="xref" href="#GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E366D322-BA57-4AB5-A3B9-B163C1063A21">Optimize Environment</a>, and finally check and resolve specific exception(s) (see <a class="xref" href="#GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-BF0A67ED-3BCC-49C1-B967-B4A449FF577F">Check and Resolve a Specific Exception</a>).</p>
+
+        <div class="section" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E6DF6A99-7B10-4A58-A196-F4B24D6276A9"><h2 class="title sectiontitle">Diagnose Running
+                Environment</h2>
+            
+            <p class="p">You can search <kbd class="ph userinput">Diagnostic_Tool.exe</kbd> in the Start menu, and then
+                click the found <span class="ph uicontrol">Diagnostic_Tool.exe</span> to run the Diagnostic
+                Tool.</p>
+
+            <div class="fig fignone" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__FIG_JYC_HBS_KJB">
+                
+                <img class="image" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_XHS_GDS_KJB" src="GUID-681566B4-BFEB-406B-875E-056565C8338F-high.png" width="2067" />
+            <span class="figcap">Figure 1 Diagnostic Tool</span></div>
+
+            <p class="p">You can select <span class="keyword parmname">SDK Diagnosis</span>, <span class="keyword parmname">Driver
+                    Diagnosis</span>, or (and) <span class="keyword parmname">System Diagnosis</span>, and then
+                click <span class="ph uicontrol">Diagnose</span> to start diagnosing.</p>
+
+            <dl class="dl parml">
+                
+                    <dt class="dt pt dlterm"><a name="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-8E5E9E49-9AB3-426B-AF0E-7C2970D4C022"><!-- --></a>SDK Diagnosis</dt>
+
+                    <dd class="dd pd">
+                        <p class="p">Diagnose the secondary development environment.</p>
+
+                    </dd>
+
+                
+                
+                    <dt class="dt pt dlterm"><a name="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-9FD2C428-6EE2-4137-8D36-9181081622F5"><!-- --></a>Driver Diagnosis, System Diagnosis</dt>
+
+                    <dd class="dd pd">
+                        <p class="p">Diagnose the MVS running environment.</p>
+
+                    </dd>
+
+                
+            </dl>
+
+            <p class="p">While diagnosing, you can also click the tool(s) at the bottom of the page to help
+                the diagnostics work.</p>
+
+            <dl class="dl parml">
+                
+                    <dt class="dt pt dlterm"><a name="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-40DC0A66-388C-4D16-8101-D584BD97117D"><!-- --></a>Log Viewer</dt>
+
+                    <dd class="dd pd">
+                        <p class="p">View the SDK logs. For details, see <a class="xref" href="GUID-1BA47F60-7E50-45F6-985E-1E6DCB87F034.html#GUID-1BA47F60-7E50-45F6-985E-1E6DCB87F034" title="Via the Log Viewer tool, you can view the SDK logs of MvCameraControl.dll, MVGigEVisionSDK.dll, MvUsb3vTL.dll, MvCamLVision.dll, and other DLL(s) if required. You can also configure log settings such as the maximum number of the displayed SDK logs.">SDK Logs</a>.</p>
+
+                    </dd>
+
+                
+                
+                    <dt class="dt pt dlterm"><a name="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-141EC655-7200-4478-8DBF-564BFC298EFF"><!-- --></a>Driver Manager</dt>
+
+                    <dd class="dd pd">
+                        <p class="p">Manage the GigE Vision driver and the USB driver. For details, see <a class="xref" href="GUID-7BDF9728-E634-44E7-B7BB-9ADC7BBE9CA5.html#GUID-7BDF9728-E634-44E7-B7BB-9ADC7BBE9CA5" title="You can use Driver Manager to view the status (installed or uninstalled), and install or uninstall the GigE Vision driver and USB Vision driver.">Driver Manager</a>.</p>
+
+                    </dd>
+
+                
+                
+                    <dt class="dt pt dlterm"><a name="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E67AF3E4-31E1-4A3E-8132-3BB2DFD78BAC"><!-- --></a>NIC Configurator</dt>
+
+                    <dd class="dd pd">
+                        <p class="p">Configure the PC's network adapter parameters. For details, see<a class="xref" href="GUID-1947F88D-EB6E-46CD-9334-35B1A2816C74.html#GUID-1947F88D-EB6E-46CD-9334-35B1A2816C74" title="You can use NIC Configurator to configure and apply the parameters of the network interface card (hereafter simplified as NIC).">NIC Configurator</a>.</p>
+
+                    </dd>
+
+                
+            </dl>
+
+            <p class="p">When diagnosis ends, the exception number of each type of the diagnosis results
+                (Serious, Fatal, or Normal) will be displayed, and all the exceptions will be
+                displayed by different categories. You can view and handle each one of them
+                respectively.</p>
+
+            <div class="fig fignone" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__FIG_KM3_HGS_KJB">
+                
+                <img class="image" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_XDT_CHS_KJB" src="GUID-C198B07E-F18C-4D6B-856F-34418AF22A88-high.png" width="1834" />
+            <span class="figcap">Figure 2 Diagnosis Completed</span></div>
+
+            <div class="p">The following table shows the description of each type of diagnosis results.
+<table cellpadding="4" cellspacing="0" summary="" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__TABLE_JLB_BGS_KJB" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap">Table 1 Description of Result Type </span></caption>
+                        
+                        
+                        <thead class="thead" align="left">
+                            <tr>
+                                <th class="entry" valign="top" width="23.980815347721823%" id="d17460e187">
+                                    <p class="p">Result Type</p>
+
+                                </th>
+
+                                <th class="entry" valign="top" width="76.01918465227818%" id="d17460e193">
+                                    <p class="p">Description</p>
+
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody class="tbody">
+                            <tr>
+                                <td class="entry" valign="top" width="23.980815347721823%" headers="d17460e187 ">
+                                    <p class="p">Fatal</p>
+
+                                </td>
+
+                                <td class="entry" valign="top" width="76.01918465227818%" headers="d17460e193 ">
+                                    <p class="p">The exceptions that may cause fatal problems such as system
+                                        crash or secondary development failure. </p>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="entry" valign="top" width="23.980815347721823%" headers="d17460e187 ">
+                                    <p class="p">Serious</p>
+
+                                </td>
+
+                                <td class="entry" valign="top" width="76.01918465227818%" headers="d17460e193 ">
+                                    <p class="p">The exceptions that may cause serious problems such as
+                                        streaming failure. </p>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="entry" valign="top" width="23.980815347721823%" headers="d17460e187 ">
+                                    <p class="p">Normal</p>
+
+                                </td>
+
+                                <td class="entry" valign="top" width="76.01918465227818%" headers="d17460e193 ">
+                                    <p class="p">The item is normal and is marked with <img class="image icon" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_QMW_K3S_KJB" src="GUID-EBA71D52-8A96-4932-A076-6336BCA1E5CD-high.png" />.</p>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+</div>
+
+        </div>
+
+        <div class="section" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E366D322-BA57-4AB5-A3B9-B163C1063A21"><h2 class="title sectiontitle">Optimize Environment</h2>
+            
+            <p class="p">If exception(s) are detected after diagnosis, you can click <span class="ph uicontrol">Start
+                    Optimization</span> to optimize the MVS running environment and the
+                secondary development environment. </p>
+
+            <div class="note note" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-7D5E03BA-0070-4A72-A170-0AF63BD0898D"><span class="notetitle">Note:</span> 
+                <p class="p">After optimization, you may still need to resolve some exceptions manually. Take
+                    network line rate exception (lower than 1Gbps) for an example, you need to
+                    manually check if the NIC, network or the switch is abnormal. </p>
+
+            </div>
+
+            <div class="fig fignone" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__FIG_URY_WJS_KJB">
+                
+                <img class="image" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_P2L_ZJS_KJB" src="GUID-45626252-255B-4259-AE13-29906073E29C-high.png" width="1838" />
+            <span class="figcap">Figure 3 Optimization Completed</span></div>
+
+        </div>
+
+        <div class="section" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-BF0A67ED-3BCC-49C1-B967-B4A449FF577F"><h2 class="title sectiontitle">Check and Resolve a Specific Exception</h2>
+            
+            <p class="p">The Diagnostic Tool can detect various types of exceptions, including the exception
+                that SDK files are copied to multiple saving paths, environment variable exception,
+                driver exception, USB controller exception, Jumbo Frame exception, and network line
+                rate exception.</p>
+
+            <ul class="ul" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__UL_YBC_2KS_KJB">
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-AE4B8600-1D01-4BB5-81D0-AF7833CE4414">
+                    <p class="p">For the exception that SDK files are copied to multiple saving paths, you can
+                        click <span class="ph uicontrol">Check</span>, and then delete a specific SDK file or
+                        click <span class="ph uicontrol">Clear All</span> to clear all the SDK files. </p>
+
+                    <div class="fig fignone" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__FIG_PVZ_BPS_KJB">
+                        
+                        <img class="image" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_KJW_2PS_KJB" src="GUID-C2BF8C6C-E8D1-4927-AFD6-37C10025B377-high.png" width="1300" />
+                    <span class="figcap">Figure 4 SDK Files Copied to
+                            Multiple Saving Paths</span></div>
+
+                </li>
+
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-FD828916-5DEB-40F2-A3DA-F8E09D201BA8">
+                    <p class="p">For environment variable exception, you can click
+                            <span class="ph uicontrol">Repair</span> to repair the detected problems. </p>
+
+                    <p class="p">If no exception is detected, you can also click <span class="ph uicontrol">Check</span>
+                        to view the variable information such as variable name and status. </p>
+
+                </li>
+
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-2F4A7510-68FD-47EA-B2D5-5C4AC068BEB3">
+                    <p class="p">For driver exception, you can click <span class="ph uicontrol">Check</span> to view the
+                        driver information such as the driver version and driver's latest update
+                        time.</p>
+
+                </li>
+
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-931F2D0E-6476-425D-9F76-74E9FE39D75B">
+                    <p class="p">For USB controller exception, you can click <span class="ph uicontrol">Check</span> to
+                        view the USB controller information, such as driver key, device ID, and
+                        vendor ID.</p>
+
+                </li>
+
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-E6BBB845-733D-4953-ACF6-7EA89D2658D5">
+                    <p class="p">For Jumbo Frame exception, you can click <span class="ph uicontrol">Check</span>  to
+                        view whether Jumbo Frame of the network adapter is enabled or not and the
+                        Jumbo Frame value (if enabled).</p>
+
+                    <div class="note note" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-2FC3EDF3-25A7-4B9C-8484-84A25B2D572F"><span class="notetitle">Note:</span> 
+                        <p class="p">To ensure data transmission efficiency, make sure that Jumbo Frame is
+                            enabled.</p>
+
+                    </div>
+
+                </li>
+
+                <li class="li" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__GUID-1E19FF86-0CB3-4480-83FE-A75BC27EB424">
+                    <p class="p">For network line rate exception, you can click <span class="ph uicontrol">View
+                            Solution</span> to view the exception details and solution.</p>
+
+                    <div class="fig fignone" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__FIG_MTH_FPS_KJB">
+                        
+                        <img class="image" id="GUID-741C6A23-9218-42DF-B4AD-15ED12579371__IMAGE_UKQ_GPS_KJB" src="GUID-1EE5633A-30F3-4918-B01B-94CC50815814-high.png" width="1334" />
+                    <span class="figcap">Figure 5 Line Rate Exception</span></div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-545BED7E-6E3C-4D3F-BB3F-496843D1B428.html">Tool Management</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-A790640B-EBFF-4A20-8C1F-DFD15D404387.html">IP Configurator</a></span></li><li><span class="topicref"><a href="GUID-050E09FA-5022-440D-A0BF-0F80A85A4E3B.html">Firmware Updater</a></span></li><li><span class="topicref"><a href="GUID-A65ADE40-EF56-462A-A3E0-6BD07A6BE844.html">Bandwidth Manager</a></span></li><li><span class="topicref"><a href="GUID-57FE1A73-D19B-4B45-B373-CEC6465B6EF9.html">GigE Vision Action Command</a></span></li><li><span class="topicref"><a href="GUID-1947F88D-EB6E-46CD-9334-35B1A2816C74.html">NIC Configurator</a></span></li><li><span class="topicref"><a href="GUID-7BDF9728-E634-44E7-B7BB-9ADC7BBE9CA5.html">Driver Manager</a></span></li><li class="active"><span class="topicref">Diagnostic Tool</span></li><li><span class="topicref"><a href="GUID-CC83E179-64AA-4919-B800-334B9765080A.html">View PC System Information</a></span></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,193 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="zh-cn" lang="zh-cn">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) 版权 2005" /><meta name="DC.rights.owner" content="(C) 版权 2005" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="诊断工具" /><meta name="abstract" content="诊断工具可对SDK、驱动以及系统环境进行检测和修复。" /><meta name="description" content="诊断工具可对SDK、驱动以及系统环境进行检测和修复。" /><meta name="DC.Relation" scheme="URI" content="GUID-49ADF167-5FCB-4A42-9EDD-59690BE91937.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-4681581B-6365-4131-99C1-C18604DFB5C1" /><meta name="DC.Language" content="zh-CN" /><title>诊断工具</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">zh-CN</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26552B" /><input hidden="hidden" id="UDTrademark" value="" /><input hidden="hidden" id="Trademark" value="海康机器人" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">诊断工具</h1>
+
+
+<div class="body conbody"><p class="shortdesc">诊断工具可对SDK、驱动以及系统环境进行检测和修复。</p>
+
+        <div class="section" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-D22966B7-77BF-4000-801C-A477685E9D59"><h2 class="title sectiontitle">打开工具</h2>
+            
+            <p class="p">通过Windows系统中的<span class="ph menucascade"><span class="ph uicontrol">开始菜单</span> &gt; <span class="ph uicontrol">所有程序</span> &gt; <span class="ph uicontrol">MVS文件夹</span> &gt; <span class="ph uicontrol">Tools</span> &gt; <span class="ph uicontrol">Diagnostic_Tool</span></span>找到诊断工具并打开，如下图所示。</p>
+
+            <div class="fig fignone" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__FIG_LLQ_TT2_CKB">
+                
+                <img class="image" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__IMAGE_MLQ_TT2_CKB" src="GUID-C6EDD96C-E483-4ED0-87BD-E570D265C9C3-high.png" width="813" />
+            <span class="figcap">图 1 打开诊断工具</span></div>
+
+        </div>
+
+        <div class="section" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-4DC5250D-473B-470A-B9C8-3F1529502B1D"><h2 class="title sectiontitle">诊断过程</h2>
+            
+            <p class="p">当客户端异常时，可通过诊断工具勾选需要诊断的内容进行<span class="ph uicontrol">一键诊断</span>，如下图所示。默认对SDK、驱动以及系统都进行检测，也可根据需求选择某部分进行检测。</p>
+
+            <ul class="ul" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__UL_Z2Y_WCM_G3B">
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-2EC45EBC-B4DF-43F6-B27A-1A82E904B697">
+                    <p class="p">SDK检测：检测SDK的文件路径以及环境变量是否正常。</p>
+
+                </li>
+
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-9880D905-2F72-42FD-8DBA-C30657B781A9">
+                    <p class="p">驱动检测：检测GEV以及U3V驱动安装是否正常，查看USB自身驱动版本信息。</p>
+
+                </li>
+
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-D889704F-5F6D-45AD-9335-A4BAA7F154C6">
+                    <p class="p">系统检测：检测系统防火墙的状态以及网络线路速度，查看USB控制器、网卡巨帧以及系统的相关信息 。</p>
+
+                </li>
+
+            </ul>
+
+            <div class="fig fignone" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__FIG_FP1_VT2_CKB">
+                
+                <img class="image" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__IMAGE_GP1_VT2_CKB" src="GUID-E068FCDA-2B6E-4313-81B5-3545242FCCFC-high.png" width="2067" />
+            <span class="figcap">图 2 诊断工具</span></div>
+
+        </div>
+
+        <div class="section" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-A965C397-1177-40D8-BF6F-733349C0F8A5"><h2 class="title sectiontitle">诊断结果</h2>
+            
+            <p class="p">完成诊断后，可查看每项具体的检测结果，如下图所示。同时可进行以下操作，</p>
+
+            <ul class="ul" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__UL_XFN_LKD_CKB">
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-518BC8F9-1EAE-4B46-81DC-07F066B5D69F">
+                    <p class="p">若有需要优化的检测项，可通过<span class="ph uicontrol">开始优化</span>按钮对需要优化的检测项一起优化，也可通过单个检测项后的<span class="ph uicontrol">查看并修复</span>按钮逐一优化。</p>
+
+                </li>
+
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-6EE61C45-25EB-436F-9B24-36D020E3F0E9">
+                    <p class="p">若需要重新检测，则单击<span class="ph uicontrol">重新诊断</span>按钮。</p>
+
+                </li>
+
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-08142EE3-7209-4ECC-BD32-AB41129FF029">
+                    <p class="p">若需要回到主界面，则单击界面右上角的<span class="ph uicontrol">主页</span>。</p>
+
+                </li>
+
+                <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-D8B6F047-67CB-4554-B61B-2D584086740E">
+                    <p class="p">诊断结果可以通过<img class="image icon" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__IMAGE_ISN_ZM3_CKB" src="GUID-C65351CE-7B95-4940-A2F5-7CFB1FE9F74B-high.png" />导出。导出的log文件中可查看诊断工具的诊断结果。</p>
+
+                </li>
+
+            </ul>
+
+            <div class="fig fignone" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__FIG_EWY_WT2_CKB">
+                
+                <img class="image" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__IMAGE_FWY_WT2_CKB" src="GUID-6E04ED95-E637-4076-9E5C-8B5392207659-high.png" width="2067" />
+            <span class="figcap">图 3 诊断结果</span></div>
+
+            <div class="note note" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-CDD049F9-6CBB-4B12-BF9C-6BA3C4A86A23"><span class="notetitle">说明：</span> 
+                <p class="p">诊断工具同时支持一键打开日志查看工具，驱动管理工具以及网卡配置工具 。通过单击<a class="xref" href="#GUID-4681581B-6365-4131-99C1-C18604DFB5C1__FIG_FP1_VT2_CKB">诊断工具</a>界面下方的各图标即可。</p>
+
+                <ul class="ul" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__UL_EV5_JFM_G3B">
+                    <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-F3FE9F1B-65FC-4B25-A9C6-03BCB9B9D5F3">
+                        <p class="p">日志查看：一键打开日志查看工具，具体工具的介绍详见<a class="xref" href="GUID-5AF8CCAE-D7D0-4AF9-82C8-8DC9D250AE0D.html#GUID-5AF8CCAE-D7D0-4AF9-82C8-8DC9D250AE0D" title="日志查看工具可以查看MVS中使用的SDK产生的日志信息。">SDK日志</a>章节。</p>
+
+                    </li>
+
+                    <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-1D1F73A3-C88D-436F-BEF1-F8342DAA20A4">
+                        <p class="p">驱动管理：一键打开驱动管理工具，具体工具的介绍详见<a class="xref" href="GUID-35D10920-7AE3-496A-8AB3-74AD780EBCEE.html#GUID-35D10920-7AE3-496A-8AB3-74AD780EBCEE" title="驱动管理工具可对客户端所需驱动进行管理。">驱动管理</a>章节。</p>
+
+                    </li>
+
+                    <li class="li" id="GUID-4681581B-6365-4131-99C1-C18604DFB5C1__GUID-1B098941-3FE4-42E9-A213-C34C15F6A39E">
+                        <p class="p">网卡属性配置：一键打开网卡配置工具，具体工具的介绍详见<a class="xref" href="GUID-B344F716-EDE9-4FAD-B9B0-AF2D7AD707C6.html#GUID-B344F716-EDE9-4FAD-B9B0-AF2D7AD707C6" title="网卡配置工具可方便快捷的设置网卡属性。">网卡配置</a>章节。</p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-49ADF167-5FCB-4A42-9EDD-59690BE91937.html">工具应用</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-863892B3-DF4D-4FE3-AC52-D8169AA0D9D4.html">IP配置工具</a></span></li><li><span class="topicref"><a href="GUID-EAF3E75F-BF54-48B4-8C30-7B7B5FBE6A69.html">固件升级</a></span></li><li><span class="topicref"><a href="GUID-DAECD382-D164-4086-84F1-7CB17B336B77.html">带宽管理</a></span></li><li><span class="topicref"><a href="GUID-F9CF6C52-A5BD-4EED-95DF-2D60D3E78134.html">GigE Vision动作命令</a></span></li><li><span class="topicref"><a href="GUID-B344F716-EDE9-4FAD-B9B0-AF2D7AD707C6.html">网卡配置</a></span></li><li><span class="topicref"><a href="GUID-35D10920-7AE3-496A-8AB3-74AD780EBCEE.html">驱动管理</a></span></li><li class="active"><span class="topicref">诊断工具</span></li><li><span class="topicref"><a href="GUID-71C47620-4125-44D8-A429-8D5265F853C6.html">查看PC系统信息</a></span></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>

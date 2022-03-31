@@ -1,0 +1,357 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="en-us" lang="en-us">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) Copyright 2005" /><meta name="DC.rights.owner" content="(C) Copyright 2005" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="View SDK Logs" /><meta name="abstract" content="You can view the SDK logs of the Client. Three types of SDK logs are available, i.e., error, warning, and information. Each log contains the information including log type, log time, log content, process name, etc." /><meta name="description" content="You can view the SDK logs of the Client. Three types of SDK logs are available, i.e., error, warning, and information. Each log contains the information including log type, log time, log content, process name, etc." /><meta name="DC.Relation" scheme="URI" content="GUID-1BA47F60-7E50-45F6-985E-1E6DCB87F034.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5" /><meta name="DC.Language" content="en-US" /><title>View SDK Logs</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">en-US</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26519B" /><input hidden="hidden" id="UDTrademark" value="_HIKROBOT" /><input hidden="hidden" id="Trademark" value="Hikrobot" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">View SDK Logs</h1>
+
+
+<div class="body conbody"><p class="shortdesc">You can view the SDK logs of the Client. Three types of SDK logs are
+        available, i.e., error, warning, and information. Each log contains the information
+        including log type, log time, log content, process name, etc.</p>
+
+        <p class="p">Click <span class="ph menucascade"><span class="ph uicontrol">Tool</span> &gt; <span class="ph uicontrol">Log Viewer</span></span> to open the Log Viewer window. </p>
+
+        <div class="fig fignone" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__FIG_QCL_D4P_CKB">
+            
+            <img class="image" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__IMAGE_AWR_F4P_CKB" src="GUID-52DA14AA-2DCC-4ADB-A981-47AE1ED78B37-high.png" width="2067" />
+        <span class="figcap">Figure 1 Log Viewer</span></div>
+
+        <div class="p">The following table shows the descriptions of the three types of SDK logs.
+<table cellpadding="4" cellspacing="0" summary="" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__TABLE_VJD_XMS_3JB" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap">Table 1 Type of SDK Logs</span></caption>
+                    
+                    
+                    <thead class="thead" align="left">
+                        <tr>
+                            <th class="entry" valign="top" width="21.008403361344538%" id="d13506e53">
+                                <p class="p">Log Type</p>
+
+                            </th>
+
+                            <th class="entry" valign="top" width="78.99159663865547%" id="d13506e59">
+                                <p class="p">Description</p>
+
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody class="tbody">
+                        <tr>
+                            <td class="entry" valign="top" width="21.008403361344538%" headers="d13506e53 ">
+                                <p class="p">Error</p>
+
+                            </td>
+
+                            <td class="entry" valign="top" width="78.99159663865547%" headers="d13506e59 ">
+                                <p class="p">Errors occurred on the Client. </p>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td class="entry" valign="top" width="21.008403361344538%" headers="d13506e53 ">
+                                <p class="p">Warning</p>
+
+                            </td>
+
+                            <td class="entry" valign="top" width="78.99159663865547%" headers="d13506e59 ">
+                                <p class="p">The warning information sent by the Client when precondition
+                                    error occurs. </p>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td class="entry" valign="top" width="21.008403361344538%" headers="d13506e53 ">
+                                <p class="p">Information</p>
+
+                            </td>
+
+                            <td class="entry" valign="top" width="78.99159663865547%" headers="d13506e59 ">
+                                <p class="p">The information about operations.</p>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+</div>
+
+        <p class="p">You can perform the following operations.</p>
+
+        
+<table cellpadding="4" cellspacing="0" summary="" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__TABLE_G1L_ZPS_3JB" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap">Table 2 SDK Log Operations</span></caption>
+                
+                
+                <thead class="thead" align="left">
+                    <tr>
+                        <th class="entry" valign="top" width="35.46099290780141%" id="d13506e135">
+                            <p class="p">Operation</p>
+
+                        </th>
+
+                        <th class="entry" valign="top" width="64.53900709219857%" id="d13506e141">
+                            <p class="p">Description</p>
+
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody class="tbody">
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Export All SDK Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Right-click the log list and then click <span class="ph uicontrol">Export All
+                                    Logs</span>. </p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Export Selected SDK Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Press and hold the <span class="ph uicontrol">Shift</span> key and left-click
+                                the mouse to select multiple SDK logs continuously, and then
+                                right-click the log list and click <span class="ph uicontrol">Export Selected
+                                    Logs</span>. </p>
+
+                            <p class="p">Or press and hold the <span class="ph uicontrol">Ctrl</span> key and left-click
+                                the mouse to select multiple SDK logs, and then right-click the log
+                                list and click <span class="ph uicontrol">Export Selected Logs</span>. </p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Search Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Enter the keywords to search logs.</p>
+
+                            <div class="note note" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__GUID-A235157C-C73B-45CD-8BE6-5B848A3BE3D2"><span class="notetitle">Note:</span> 
+                                <p class="p">You can only search by the keywords of the content of the log.
+                                    Searching by the keywords of log type, log time, or log source
+                                    is not supported. </p>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Refresh Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Click <span class="ph uicontrol">Refresh</span> to refresh logs.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Copy All SDK Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Right-click the log list and then click <span class="ph uicontrol">Copy All
+                                    Logs</span>. </p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Copy Selected SDK Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p"> Press and hold the <span class="ph uicontrol">Shift</span> key and left-click
+                                the mouse to select multiple SDK logs continuously, and then
+                                right-click the log list and click <span class="ph uicontrol">Copy Selected
+                                    Logs</span>. </p>
+
+                            <p class="p">Or press and hold the <span class="ph uicontrol">Ctrl</span> key and left-click
+                                the mouse to select multiple SDK logs, and then right-click the log
+                                list and click <span class="ph uicontrol">Copy Selected Logs</span>. </p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Clear All SDK Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Right-click the log list ant then click <span class="ph uicontrol">Clear
+                                    Logs</span></p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Stick to the Top or Not</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Click <img class="image icon" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__IMAGE_PJJ_DSS_3JB" src="GUID-41DAEF95-7AAC-4228-A15D-F17C37170044-high.png" /> to stick the Log
+                                Viewer window to the top, click <img class="image icon" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__IMAGE_RGF_2SS_3JB" src="GUID-51B39D56-81CC-4689-9E61-53F6CE8EA797-high.png" /> to undo.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Select Displayed Information</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Click <img class="image icon" id="GUID-5952B7C6-B552-432F-8A8D-13D7EFC839B5__IMAGE_JFT_DQ3_CKB" src="GUID-96DC08AB-F831-4878-91BE-95A76F9C90DE-high.png" /> to select the
+                                to-be-displayed information (time, type, content, source, etc.).</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="entry" valign="top" width="35.46099290780141%" headers="d13506e135 ">
+                            <p class="p">Rank Logs</p>
+
+                        </td>
+
+                        <td class="entry" valign="top" width="64.53900709219857%" headers="d13506e141 ">
+                            <p class="p">Click the <span class="ph uicontrol">Time</span> table header to rank the logs
+                                by time (descending order or ascending order).</p>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+</div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-39B081FB-54CB-4FA6-B6C2-6EB93F4828DB.html">Logs</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-C7E947AF-84AA-4D82-8A67-C5C4A004BD04.html">Software Logs</a></span></li><li><span class="topicref"><a href="GUID-1BA47F60-7E50-45F6-985E-1E6DCB87F034.html">SDK Logs</a></span><ul class="nav nav-list"><li class="active"><span class="topicref">View SDK Logs</span></li><li><span class="topicref"><a href="GUID-037C6B6F-8B99-4092-8868-2482B9819B30.html">Configure SDK Logs</a></span></li></ul></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>

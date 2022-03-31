@@ -1,0 +1,114 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.daksys.com/webhelp/components" xml:lang="zh-cn" lang="zh-cn">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) 版权 2005" /><meta name="DC.rights.owner" content="(C) 版权 2005" /><meta name="DC.Type" content="concept" /><meta name="DC.Title" content="文件存取" /><meta name="abstract" content="文件存取可对相机的用户集或DPC数据进行导入或者导出的操作。" /><meta name="description" content="文件存取可对相机的用户集或DPC数据进行导入或者导出的操作。" /><meta name="DC.Relation" scheme="URI" content="GUID-130C0128-05E9-430C-B326-59D7F8EF4FFB.html" /><meta name="DC.Relation" scheme="URI" content="GUID-61EB3726-9908-427A-982D-74759BAB71A9.html" /><meta name="DC.Relation" scheme="URI" content="GUID-2FD6B9EE-A9CF-4510-9AF7-83EBEC4B8BFD.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="GUID-334F2293-5F58-4FF6-95F2-BA8810339776" /><meta name="DC.Language" content="zh-CN" /><title>文件存取</title><!--  Generated with dksgen version 19.0, build number 2017042020.  --><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><meta name="wh-path2root" content="index.html" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/commonltr.css?buildId=2017042020" />
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+		<!-- Latest compiled and minified Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+		<!-- Bootstrap Optional theme -->
+		<link rel="stylesheet" href="daksys-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="daksys-webhelp/resources/js/jquery-ui.min.css" />
+		<!-- Changes and comments, as side-notes  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+		<!-- Template default styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+		<!-- Expand-collapse support styles  -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/resources/css/wt_expand.css?buildId=2017042020" />
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-3.1.1.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/localization/strings.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/localization.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/parseuri.js?buildId=2017042020">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.cookie.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery-ui.min.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/jquery.highlight-3.js">
+			<!---->
+		</script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/browserDetect.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<script type="text/javascript" src="daksys-webhelp/resources/js/image-resize.js">
+			<!---->
+		</script>
+		<!-- BnStart No37 -->
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/skin.css?buildId=2017042020" /><link rel="stylesheet" type="text/css" href="daksys-webhelp/template/variants/tiles/custom/watermark.css?buildId=2017042020" />
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<!-- EXM-36950 - webhelp.fragment.head :topic -->
+		
+	</head>
+	<body class="wh_topic_page frmBody" id="GUID-334F2293-5F58-4FF6-95F2-BA8810339776" onload="topicOnload()">
+		<!-- get_lang -->
+		<div id="lang" style="display:none">zh-CN</div><div id="mapoutputclass" style="display:none"></div>
+		<input hidden="hidden" id="UDCode" value="UD26552B" /><input hidden="hidden" id="UDTrademark" value="" /><input hidden="hidden" id="Trademark" value="海康机器人" />
+		<div class="content_area" id="content_area">
+			<div id="container_body" class="container">
+				<div id="container_body_right">
+					<div class="row">
+						<div id="contentArea">
+							<div class=" wh_topic_content body ">
+    <h1 class="title topictitle1">文件存取</h1>
+
+
+<div class="body conbody"><p class="shortdesc">文件存取可对相机的用户集或DPC数据进行导入或者导出的操作。</p>
+
+        <p class="p">该功能支持对相机属性UserSet 1/2/3和DPC数据进行存取。其中DPC表示相机校正过的坏点数据。</p>
+
+        <div class="note note" id="GUID-334F2293-5F58-4FF6-95F2-BA8810339776__GUID-742638CE-597A-4370-92DC-A9F95B522E52"><span class="notetitle">说明：</span> 
+            <ul class="ul" id="GUID-334F2293-5F58-4FF6-95F2-BA8810339776__UL_CM2_VWC_CKB">
+                <li class="li" id="GUID-334F2293-5F58-4FF6-95F2-BA8810339776__GUID-213E32D5-0D64-48CB-B33B-6E75B2F20311">
+                    <p class="p">该功能仅支持同型号相机之间导入或导出。</p>
+
+                </li>
+
+                <li class="li" id="GUID-334F2293-5F58-4FF6-95F2-BA8810339776__GUID-07D5A41B-0C1D-4D03-A3E9-FB6ECE271C96">
+                    <p class="p">相机是否支持该功能由相机型号和固件程序决定，具体请咨询技术支持。</p>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+</div>
+
+
+</div>
+							
+							
+							
+						</div>
+						<nav role="navigation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 navbar" id="wh_side_toc" style="display:none">
+							<div class=" wh_side_toc "><ul class="hidden-print"><li><span class="topicref"><a href="GUID-130C0128-05E9-430C-B326-59D7F8EF4FFB.html">相机属性配置</a></span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-8693089C-163D-4124-AC76-DB2B0ECE6B83.html">属性树</a></span></li><li><span class="topicref"><a href="GUID-174775E7-C15F-4BB1-8ACE-5119E4787E7B.html">常用属性</a></span></li><li><span class="topicref"><a href="GUID-B5B0E554-FCFA-4A40-B8AC-62739E53B270.html">触发属性</a></span></li><li><span class="topicref"><a href="GUID-A49E183B-E790-47BB-AD38-E32914274316.html">高级属性</a></span></li><li><span class="topicref"><a href="GUID-7578CFB1-8F1C-470D-B3C4-1E0E99245AAA.html">导入/导出单个相机属性</a></span></li><li><span class="topicref"><a href="GUID-3EF2A99D-C9CA-43B7-AEB7-69BED1E1925B.html">导入/导出多个相机属性</a></span></li><li class="active"><span class="topicref">文件存取</span><ul class="nav nav-list"><li><span class="topicref"><a href="GUID-61EB3726-9908-427A-982D-74759BAB71A9.html">导入属性文件</a></span></li><li><span class="topicref"><a href="GUID-2FD6B9EE-A9CF-4510-9AF7-83EBEC4B8BFD.html">导出属性文件</a></span></li></ul></li><li><span class="topicref"><a href="GUID-20B2ED4F-3F33-43A6-9DC4-2CD80957480D.html">用户集控制</a></span></li></ul></li></ul></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/javascript" src="daksys-webhelp/resources/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="daksys-webhelp/resources/js/hik_topic.js"></script>
+		<!-- <script type="text/javascript" src="${daksys-webhelp-template-dir}/resources/js/wt_default.js?buildId=${daksys-webhelp-build-number}" /> -->
+		<!-- Expand/collapse support -->
+		<script type="text/javascript" src="daksys-webhelp/template/resources/js/wt_expand.js?buildId=2017042020"></script>
+		
+		
+	</body>
+</html>
